@@ -14,8 +14,9 @@ echo "=================================="
 wget https://github.com/bluenviron/mediamtx/releases/download/v1.8.5/mediamtx_v1.8.5_linux_arm64v8.tar.gz
 rm -rf mediamtx.yml
 tar -xvf mediamtx_v1.8.5_linux_arm64v8.tar.gz
-sudo mv mediamtx /usr/local/bin/
-sudo mv mediamtx_temp.yml /usr/local/etc/mediamtx.yml
+sudo cp mediamtx /usr/local/bin/
+sudo cp mediamtx_temp.yml /usr/local/etc/mediamtx.yml
+
 rm -rf mediamtx_v1.8.5_linux_arm64v8.tar.gz
 
 
