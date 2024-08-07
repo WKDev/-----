@@ -1,0 +1,248 @@
+1723013679: mosquitto version 2.0.18 starting
+1723013679: Config loaded from /mosquitto/config/mosquitto.conf.
+1723013679: Opening ipv4 listen socket on port 1883.
+1723013679: Opening ipv6 listen socket on port 1883.
+1723013679: Opening websockets listen socket on port 9001.
+1723013679: mosquitto version 2.0.18 running
+1723013687: New connection from 192.168.65.1:44594 on port 1883.
+1723013687: New client connected from 192.168.65.1:44594 as auto-BADE2413-189E-1904-9514-5C7BA59A9772 (p2, c1, k60).
+1723013701: mosquitto version 2.0.18 terminating
+1723013701: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723013703: mosquitto version 2.0.18 starting
+1723013703: Config loaded from /mosquitto/config/mosquitto.conf.
+1723013703: Opening ipv4 listen socket on port 1883.
+1723013703: Opening ipv6 listen socket on port 1883.
+1723013703: Opening websockets listen socket on port 9001.
+1723013703: mosquitto version 2.0.18 running
+1723013704: New connection from 192.168.65.1:36363 on port 1883.
+1723013704: New client connected from 192.168.65.1:36363 as auto-7E7F8257-3871-4A68-5740-2037ECEB8B19 (p2, c1, k60).
+1723013725: New connection from 192.168.65.1:52720 on port 1883.
+1723013725: New client connected from 192.168.65.1:52720 as auto-3012B368-3C7A-C6C9-D21C-C3857D4950C3 (p2, c1, k60).
+1723013725: Client auto-3012B368-3C7A-C6C9-D21C-C3857D4950C3 disconnected.
+1723013774: New connection from 192.168.65.1:39974 on port 1883.
+1723013774: New client connected from 192.168.65.1:39974 as auto-D89AF246-327A-3799-8882-C016F07DBC74 (p2, c1, k60).
+1723013774: Client auto-D89AF246-327A-3799-8882-C016F07DBC74 disconnected.
+1723013852: New connection from 192.168.65.1:57362 on port 1883.
+1723013852: New client connected from 192.168.65.1:57362 as auto-6E1ACCF3-DAFD-1F21-C4D6-C1541D397F6D (p2, c1, k60).
+1723013852: Client auto-6E1ACCF3-DAFD-1F21-C4D6-C1541D397F6D disconnected.
+1723013888: New connection from 192.168.65.1:47578 on port 1883.
+1723013888: New client connected from 192.168.65.1:47578 as auto-3EC638B9-FDBC-8D77-43D6-A59408434FFB (p2, c1, k60).
+1723013888: Client auto-3EC638B9-FDBC-8D77-43D6-A59408434FFB disconnected.
+1723013901: New connection from 192.168.65.1:54024 on port 1883.
+1723013901: New client connected from 192.168.65.1:54024 as auto-111E2A47-C2D5-AD18-7F33-4D1C5A900916 (p2, c1, k60).
+1723013901: Client auto-111E2A47-C2D5-AD18-7F33-4D1C5A900916 disconnected.
+1723013917: New connection from 192.168.65.1:50944 on port 1883.
+1723013917: New client connected from 192.168.65.1:50944 as auto-D8FDCC5F-C2C0-7106-F3B4-DB6F953C2FDE (p2, c1, k60).
+1723013917: Client auto-D8FDCC5F-C2C0-7106-F3B4-DB6F953C2FDE disconnected.
+1723013919: New connection from 192.168.65.1:62982 on port 1883.
+1723013919: New client connected from 192.168.65.1:62982 as auto-41338695-6B96-0B20-DE74-29876E3FB8E5 (p2, c1, k60).
+1723013919: Client auto-41338695-6B96-0B20-DE74-29876E3FB8E5 disconnected.
+1723013920: New connection from 192.168.65.1:59006 on port 1883.
+1723013920: New client connected from 192.168.65.1:59006 as auto-14FAAF38-4077-C071-D22A-4EB95FB6629B (p2, c1, k60).
+1723013920: Client auto-14FAAF38-4077-C071-D22A-4EB95FB6629B disconnected.
+1723013920: New connection from 192.168.65.1:19689 on port 1883.
+1723013920: New client connected from 192.168.65.1:19689 as auto-02F4A578-F0C5-0C38-0737-78A88EDBA527 (p2, c1, k60).
+1723013920: Client auto-02F4A578-F0C5-0C38-0737-78A88EDBA527 disconnected.
+1723013920: New connection from 192.168.65.1:25465 on port 1883.
+1723013920: New client connected from 192.168.65.1:25465 as auto-6007C83E-5906-C8A3-EB8E-34549980D124 (p2, c1, k60).
+1723013920: Client auto-6007C83E-5906-C8A3-EB8E-34549980D124 disconnected.
+1723013921: New connection from 192.168.65.1:30064 on port 1883.
+1723013921: New client connected from 192.168.65.1:30064 as auto-8AD19439-2717-0A26-796E-C29CAC70163F (p2, c1, k60).
+1723013921: Client auto-8AD19439-2717-0A26-796E-C29CAC70163F disconnected.
+1723013921: New connection from 192.168.65.1:41197 on port 1883.
+1723013921: New client connected from 192.168.65.1:41197 as auto-6F144858-4713-7B82-D67E-A2C3CE880EE7 (p2, c1, k60).
+1723013921: Client auto-6F144858-4713-7B82-D67E-A2C3CE880EE7 disconnected.
+1723013921: New connection from 192.168.65.1:59861 on port 1883.
+1723013921: New client connected from 192.168.65.1:59861 as auto-BD2A4677-0EBE-E377-5D62-F8632941FAD7 (p2, c1, k60).
+1723013921: Client auto-BD2A4677-0EBE-E377-5D62-F8632941FAD7 disconnected.
+1723013921: New connection from 192.168.65.1:47688 on port 1883.
+1723013921: New client connected from 192.168.65.1:47688 as auto-4A303AA7-1CA6-810E-6252-67442605F222 (p2, c1, k60).
+1723013921: Client auto-4A303AA7-1CA6-810E-6252-67442605F222 disconnected.
+1723013921: New connection from 192.168.65.1:34093 on port 1883.
+1723013921: New client connected from 192.168.65.1:34093 as auto-80502541-CB10-3348-BF92-412DA76A5FDA (p2, c1, k60).
+1723013921: Client auto-80502541-CB10-3348-BF92-412DA76A5FDA disconnected.
+1723013922: New connection from 192.168.65.1:24810 on port 1883.
+1723013922: New client connected from 192.168.65.1:24810 as auto-A878E290-F4A9-8C89-6D7D-5B9DAB98EED2 (p2, c1, k60).
+1723013922: Client auto-A878E290-F4A9-8C89-6D7D-5B9DAB98EED2 disconnected.
+1723013922: New connection from 192.168.65.1:55093 on port 1883.
+1723013922: New client connected from 192.168.65.1:55093 as auto-0A6540E4-4904-F2ED-DE77-410A916BDB7D (p2, c1, k60).
+1723013922: Client auto-0A6540E4-4904-F2ED-DE77-410A916BDB7D disconnected.
+1723013922: New connection from 192.168.65.1:61144 on port 1883.
+1723013922: New client connected from 192.168.65.1:61144 as auto-972507B4-74EC-29AB-479B-E319C22496DB (p2, c1, k60).
+1723013922: Client auto-972507B4-74EC-29AB-479B-E319C22496DB disconnected.
+1723013923: New connection from 192.168.65.1:40930 on port 1883.
+1723013923: New client connected from 192.168.65.1:40930 as auto-6EB0868B-8918-77EA-6118-CE614B81B643 (p2, c1, k60).
+1723013923: Client auto-6EB0868B-8918-77EA-6118-CE614B81B643 disconnected.
+1723013977: New connection from 192.168.65.1:54015 on port 1883.
+1723013977: New client connected from 192.168.65.1:54015 as auto-CA2A31F2-86E5-2600-9873-D99F54A5A4A9 (p2, c1, k60).
+1723013977: Client auto-CA2A31F2-86E5-2600-9873-D99F54A5A4A9 disconnected.
+1723013978: New connection from 192.168.65.1:54820 on port 1883.
+1723013978: New client connected from 192.168.65.1:54820 as auto-DBC7F5CD-7905-CCDA-2331-3EF297AD191D (p2, c1, k60).
+1723013978: Client auto-DBC7F5CD-7905-CCDA-2331-3EF297AD191D disconnected.
+1723013983: New connection from 192.168.65.1:50272 on port 1883.
+1723013983: New client connected from 192.168.65.1:50272 as auto-578E5EE8-B0B4-0C82-CC0B-F32BDB597DF6 (p2, c1, k60).
+1723013983: Client auto-578E5EE8-B0B4-0C82-CC0B-F32BDB597DF6 disconnected.
+1723013988: New connection from 192.168.65.1:36776 on port 1883.
+1723013988: New client connected from 192.168.65.1:36776 as auto-E7C9A234-DB07-D6C0-3E1A-1FF64CDB3422 (p2, c1, k60).
+1723013988: Client auto-E7C9A234-DB07-D6C0-3E1A-1FF64CDB3422 disconnected.
+1723013994: New connection from 192.168.65.1:30411 on port 1883.
+1723013994: New client connected from 192.168.65.1:30411 as auto-A3267ACE-79E5-6F4F-9D41-E04A7A3A4F12 (p2, c1, k60).
+1723013994: Client auto-A3267ACE-79E5-6F4F-9D41-E04A7A3A4F12 disconnected.
+1723014077: Client auto-7E7F8257-3871-4A68-5740-2037ECEB8B19 closed its connection.
+1723014077: New connection from 192.168.65.1:52725 on port 1883.
+1723014077: New client connected from 192.168.65.1:52725 as auto-C13E3945-A0E6-99D4-9C86-59A3ED5CBD40 (p2, c1, k60).
+1723014079: New connection from 192.168.65.1:18815 on port 1883.
+1723014079: New client connected from 192.168.65.1:18815 as auto-D758A085-B0C1-7BDC-00D2-B12586AB4E54 (p2, c1, k60).
+1723014079: Client auto-D758A085-B0C1-7BDC-00D2-B12586AB4E54 disconnected.
+1723014080: New connection from 192.168.65.1:36297 on port 1883.
+1723014080: New client connected from 192.168.65.1:36297 as auto-FC50EF37-6A51-AC00-3152-D7ECDDE8B24F (p2, c1, k60).
+1723014080: Client auto-FC50EF37-6A51-AC00-3152-D7ECDDE8B24F disconnected.
+1723014081: New connection from 192.168.65.1:16049 on port 1883.
+1723014081: New client connected from 192.168.65.1:16049 as auto-AFBA6FFF-F1DB-FADB-1FFD-6D1162A38559 (p2, c1, k60).
+1723014081: Client auto-AFBA6FFF-F1DB-FADB-1FFD-6D1162A38559 disconnected.
+1723014082: New connection from 192.168.65.1:39479 on port 1883.
+1723014082: New client connected from 192.168.65.1:39479 as auto-494C3767-E2F0-CEE9-A978-17966C14281E (p2, c1, k60).
+1723014082: Client auto-494C3767-E2F0-CEE9-A978-17966C14281E disconnected.
+1723014122: Client auto-C13E3945-A0E6-99D4-9C86-59A3ED5CBD40 closed its connection.
+1723014135: New connection from 192.168.65.1:55346 on port 1883.
+1723014135: New client connected from 192.168.65.1:55346 as auto-CE00FD37-F063-79A5-8D51-C0C70ED8A783 (p2, c1, k60).
+1723014138: New connection from 192.168.65.1:24819 on port 1883.
+1723014138: New client connected from 192.168.65.1:24819 as auto-2660EF16-947B-D980-BDF2-EEB0BB6249DD (p2, c1, k60).
+1723014138: Client auto-2660EF16-947B-D980-BDF2-EEB0BB6249DD disconnected.
+1723014139: New connection from 192.168.65.1:43490 on port 1883.
+1723014139: New client connected from 192.168.65.1:43490 as auto-8EB01FF4-86D0-142C-5917-93D9FD6AD198 (p2, c1, k60).
+1723014139: Client auto-8EB01FF4-86D0-142C-5917-93D9FD6AD198 disconnected.
+1723014145: Client auto-CE00FD37-F063-79A5-8D51-C0C70ED8A783 closed its connection.
+1723014145: New connection from 192.168.65.1:34392 on port 1883.
+1723014145: New client connected from 192.168.65.1:34392 as auto-7B33D391-2EAF-AAE1-A962-4FEB045154DE (p2, c1, k60).
+1723014148: New connection from 192.168.65.1:59930 on port 1883.
+1723014148: New client connected from 192.168.65.1:59930 as auto-2B4B60FE-3065-9013-2104-3434FB816E1F (p2, c1, k60).
+1723014148: Client auto-2B4B60FE-3065-9013-2104-3434FB816E1F disconnected.
+1723014149: New connection from 192.168.65.1:49727 on port 1883.
+1723014149: New client connected from 192.168.65.1:49727 as auto-025D6C53-9E0F-C6E5-AD9A-9BC8E7A28B84 (p2, c1, k60).
+1723014149: Client auto-025D6C53-9E0F-C6E5-AD9A-9BC8E7A28B84 disconnected.
+1723014177: Client auto-7B33D391-2EAF-AAE1-A962-4FEB045154DE closed its connection.
+1723014177: New connection from 192.168.65.1:52161 on port 1883.
+1723014177: New client connected from 192.168.65.1:52161 as auto-F024DC61-D50E-432F-44B8-8A963FC6F2F4 (p2, c1, k60).
+1723014179: New connection from 192.168.65.1:32694 on port 1883.
+1723014179: New client connected from 192.168.65.1:32694 as auto-CA7F09F1-D4A2-5222-1D11-AD467F677404 (p2, c1, k60).
+1723014179: Client auto-CA7F09F1-D4A2-5222-1D11-AD467F677404 disconnected.
+1723015503: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723017304: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723019105: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723020906: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723022707: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723024508: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723026309: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723028110: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723029911: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723031712: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723033513: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723035314: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723037195: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723038996: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723040797: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723042598: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723044399: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723046200: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723048001: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723049802: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723051603: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723069199: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1723069884: Client auto-F024DC61-D50E-432F-44B8-8A963FC6F2F4 closed its connection.
+1723070085: New connection from 192.168.65.1:43492 on port 1883.
+1723070085: New client connected from 192.168.65.1:43492 as auto-DE947D2E-6F73-3532-51C3-4B2CE26E36D0 (p2, c1, k60).
+1723070085: Client auto-DE947D2E-6F73-3532-51C3-4B2CE26E36D0 disconnected.
+1723070100: New connection from 192.168.65.1:42066 on port 1883.
+1723070100: New client connected from 192.168.65.1:42066 as auto-58E4F344-DC3E-DFB1-6BB5-001780FB89FF (p2, c1, k60).
+1723070100: Client auto-58E4F344-DC3E-DFB1-6BB5-001780FB89FF disconnected.
+1723070120: New connection from 192.168.65.1:17351 on port 1883.
+1723070120: New client connected from 192.168.65.1:17351 as auto-BEAD7D3A-4763-5D5E-67B9-F5F52F4F90BB (p2, c1, k60).
+1723070167: Client auto-BEAD7D3A-4763-5D5E-67B9-F5F52F4F90BB closed its connection.
+1723070168: New connection from 192.168.65.1:29577 on port 1883.
+1723070168: New client connected from 192.168.65.1:29577 as auto-35FA1D3B-99F3-BBB2-3DC3-85AE69B85375 (p2, c1, k60).
+1723070169: New connection from 192.168.65.1:37547 on port 1883.
+1723070169: New client connected from 192.168.65.1:37547 as auto-5B5C2C96-0A11-D57A-D51E-A4530AF6B53C (p2, c1, k60).
+1723070169: Client auto-5B5C2C96-0A11-D57A-D51E-A4530AF6B53C disconnected.
+1723070171: New connection from 192.168.65.1:46307 on port 1883.
+1723070171: New client connected from 192.168.65.1:46307 as auto-377746A3-905F-BA55-D5D6-727984685629 (p2, c1, k60).
+1723070171: Client auto-377746A3-905F-BA55-D5D6-727984685629 disconnected.
+1723070199: Client auto-35FA1D3B-99F3-BBB2-3DC3-85AE69B85375 closed its connection.
+1723070200: New connection from 192.168.65.1:45152 on port 1883.
+1723070200: New client connected from 192.168.65.1:45152 as auto-AD7556E1-BFBF-B7A3-5E2E-325FF8EEB79C (p2, c1, k60).
+1723070202: New connection from 192.168.65.1:29143 on port 1883.
+1723070202: New client connected from 192.168.65.1:29143 as auto-CE04FC46-299D-9270-10F9-52D786B0454A (p2, c1, k60).
+1723070202: Client auto-CE04FC46-299D-9270-10F9-52D786B0454A disconnected.
+1723070204: New connection from 192.168.65.1:54892 on port 1883.
+1723070204: New client connected from 192.168.65.1:54892 as auto-758E1AB8-BA37-CA2C-994A-DB6EB0C12B22 (p2, c1, k60).
+1723070204: Client auto-758E1AB8-BA37-CA2C-994A-DB6EB0C12B22 disconnected.
+1723070205: New connection from 192.168.65.1:60402 on port 1883.
+1723070205: New client connected from 192.168.65.1:60402 as auto-06A171D4-0588-40CC-3AA8-7C292E2D3AE9 (p2, c1, k60).
+1723070205: Client auto-06A171D4-0588-40CC-3AA8-7C292E2D3AE9 disconnected.
+1723070208: New connection from 192.168.65.1:59941 on port 1883.
+1723070208: New client connected from 192.168.65.1:59941 as auto-B90900DE-DC70-619D-7CAC-8B580C7C9A9D (p2, c1, k60).
+1723070208: Client auto-B90900DE-DC70-619D-7CAC-8B580C7C9A9D disconnected.
+1723070209: New connection from 192.168.65.1:41443 on port 1883.
+1723070209: New client connected from 192.168.65.1:41443 as auto-5E4E7B97-3EF6-C46B-F912-AF0AEDFE80A2 (p2, c1, k60).
+1723070209: Client auto-5E4E7B97-3EF6-C46B-F912-AF0AEDFE80A2 disconnected.
+1723070268: Client auto-AD7556E1-BFBF-B7A3-5E2E-325FF8EEB79C closed its connection.
+1723070269: New connection from 192.168.65.1:40649 on port 1883.
+1723070269: New client connected from 192.168.65.1:40649 as auto-195A3F51-315C-9155-219D-F6F3CCF7E462 (p2, c1, k60).
+1723070272: New connection from 192.168.65.1:60401 on port 1883.
+1723070272: New client connected from 192.168.65.1:60401 as auto-B7262A40-F44D-E4DC-E0EC-37E8164E6B8A (p2, c1, k60).
+1723070272: Client auto-B7262A40-F44D-E4DC-E0EC-37E8164E6B8A disconnected.
+1723070275: New connection from 192.168.65.1:42335 on port 1883.
+1723070275: New client connected from 192.168.65.1:42335 as auto-0CBA7634-E268-BE7D-2848-18D1717339C9 (p2, c1, k60).
+1723070275: Client auto-0CBA7634-E268-BE7D-2848-18D1717339C9 disconnected.
+1723070300: New connection from 192.168.65.1:52087 on port 1883.
+1723070300: New client connected from 192.168.65.1:52087 as auto-0018F55E-1FE8-8589-16CC-BE451DC8A39B (p2, c1, k60).
+1723070300: Client auto-0018F55E-1FE8-8589-16CC-BE451DC8A39B disconnected.
+1723070300: Client auto-195A3F51-315C-9155-219D-F6F3CCF7E462 closed its connection.
+1723070315: New connection from 192.168.65.1:60670 on port 1883.
+1723070315: New client connected from 192.168.65.1:60670 as auto-739885E7-9F8C-26B0-81CE-7F6BCF702264 (p2, c1, k60).
+1723070326: New connection from 192.168.65.1:30633 on port 1883.
+1723070326: New client connected from 192.168.65.1:30633 as auto-BC5B0519-09FE-61A4-1FDF-A3DA3549D018 (p2, c1, k60).
+1723070326: Client auto-BC5B0519-09FE-61A4-1FDF-A3DA3549D018 disconnected.
+1723070326: Client auto-739885E7-9F8C-26B0-81CE-7F6BCF702264 closed its connection.
+1723070335: New connection from 192.168.65.1:25248 on port 1883.
+1723070335: New client connected from 192.168.65.1:25248 as auto-7BF8DB5B-6858-DBD0-5958-2627E2A4212D (p2, c1, k60).
+1723070337: New connection from 192.168.65.1:28604 on port 1883.
+1723070337: New client connected from 192.168.65.1:28604 as auto-D65D810C-6D99-2A4F-FE54-D3399527435D (p2, c1, k60).
+1723070337: Client auto-D65D810C-6D99-2A4F-FE54-D3399527435D disconnected.
+1723070568: Client auto-7BF8DB5B-6858-DBD0-5958-2627E2A4212D closed its connection.
+1723070569: New connection from 192.168.65.1:64209 on port 1883.
+1723070569: New client connected from 192.168.65.1:64209 as auto-1C31DE73-FE11-A8C4-04D4-4C0D1244B0E9 (p2, c1, k60).
+1723070572: New connection from 192.168.65.1:49602 on port 1883.
+1723070572: New client connected from 192.168.65.1:49602 as auto-1489109D-6874-F1ED-BCEA-59AC61656EC5 (p2, c1, k60).
+1723070572: Client auto-1489109D-6874-F1ED-BCEA-59AC61656EC5 disconnected.
+1723070826: Client auto-1C31DE73-FE11-A8C4-04D4-4C0D1244B0E9 closed its connection.
+1723070827: New connection from 192.168.65.1:56918 on port 1883.
+1723070827: New client connected from 192.168.65.1:56918 as auto-0B3B385F-87C7-B7D2-2454-CDF1D39B03B5 (p2, c1, k60).
+1723070830: New connection from 192.168.65.1:64888 on port 1883.
+1723070830: New client connected from 192.168.65.1:64888 as auto-5E1DF390-D3D4-309B-A0DA-A722D13BC72E (p2, c1, k60).
+1723070830: Client auto-5E1DF390-D3D4-309B-A0DA-A722D13BC72E disconnected.
+1723070832: New connection from 192.168.65.1:32733 on port 1883.
+1723070832: New client connected from 192.168.65.1:32733 as auto-73761D85-BEC5-9D8D-2A44-59E5C080D651 (p2, c1, k60).
+1723070832: Client auto-73761D85-BEC5-9D8D-2A44-59E5C080D651 disconnected.
+1723070833: New connection from 192.168.65.1:44645 on port 1883.
+1723070833: New client connected from 192.168.65.1:44645 as auto-DEB5B86A-DF2A-7F69-7772-CDE76B3C3266 (p2, c1, k60).
+1723070833: Client auto-DEB5B86A-DF2A-7F69-7772-CDE76B3C3266 disconnected.
+1723070834: New connection from 192.168.65.1:28515 on port 1883.
+1723070834: New client connected from 192.168.65.1:28515 as auto-2B54FD09-E946-FE0A-AA7A-36C4EE1F0B73 (p2, c1, k60).
+1723070834: Client auto-2B54FD09-E946-FE0A-AA7A-36C4EE1F0B73 disconnected.
+1723070835: New connection from 192.168.65.1:51010 on port 1883.
+1723070835: New client connected from 192.168.65.1:51010 as auto-57D86B03-1BDD-BC2A-19D1-D7BF0192EE83 (p2, c1, k60).
+1723070835: Client auto-57D86B03-1BDD-BC2A-19D1-D7BF0192EE83 disconnected.
+1723070840: New connection from 192.168.65.1:43509 on port 1883.
+1723070840: New client connected from 192.168.65.1:43509 as auto-87264B22-966A-31EE-763C-2B110C83C4EF (p2, c1, k60).
+1723070840: Client auto-87264B22-966A-31EE-763C-2B110C83C4EF disconnected.
+1723070841: New connection from 192.168.65.1:20921 on port 1883.
+1723070841: New client connected from 192.168.65.1:20921 as auto-B7460378-1C17-5785-0808-EFB0B1B43B2F (p2, c1, k60).
+1723070841: Client auto-B7460378-1C17-5785-0808-EFB0B1B43B2F disconnected.
+1723070843: New connection from 192.168.65.1:57050 on port 1883.
+1723070843: New client connected from 192.168.65.1:57050 as auto-8A4706CD-1464-BB50-2413-8A8013FC3C6F (p2, c1, k60).
+1723070843: Client auto-8A4706CD-1464-BB50-2413-8A8013FC3C6F disconnected.
+1723070844: New connection from 192.168.65.1:30691 on port 1883.
+1723070844: New client connected from 192.168.65.1:30691 as auto-3801CFBE-A908-A880-4175-0D2CAE566DC1 (p2, c1, k60).
+1723070844: Client auto-3801CFBE-A908-A880-4175-0D2CAE566DC1 disconnected.
+1723071000: Saving in-memory database to /mosquitto/data//mosquitto.db.
