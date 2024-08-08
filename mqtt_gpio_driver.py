@@ -7,7 +7,7 @@ import threading
 import traceback
 import logging
 from logging.handlers import RotatingFileHandler
-
+import random
 def get_device_type():
     uname = str(os.uname())
     if "rpi" in uname:
@@ -174,7 +174,10 @@ def on_message(client, userdata, msg):
                 gpio_controller.activate_pin(2)  # Example: Activate first pin
 
 # Initialize MQTT client
-client = mqtt.Client()
+client_id = f'python-mqtt-{random.randint(0, 1000)}'
+
+
+client = mqtt.Client(mqtt.CallbackAPIVersion.VERSION1,client_id)
 client.on_connect = on_connect
 client.on_message = on_message
 
