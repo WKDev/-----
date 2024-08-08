@@ -184,7 +184,17 @@ client.on_message = on_message
 # Read MQTT broker address and connect
 mqtt_broker = config['mqtt']['broker']['ip']
 mqtt_port = config['mqtt']['broker']['port']
-client.connect(mqtt_broker, mqtt_port, 60)
+
+while True:
+    try:
+        client.connect(mqtt_broker, mqtt_port, 60)
+        break
+
+    except Exception as e:
+        logger.error(f"{traceback.format_exc()}")
+        logger.error(f"Failed to connect to MQTT broker at {mqtt_broker}:{mqtt_port}, retrying in 1 seconds")
+        time.sleep(1)
+
 
 # Loop forever, handling reconnects and messages
 client.loop_forever()
