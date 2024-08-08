@@ -169,6 +169,9 @@ def on_message(client, userdata, msg):
             new_timestamp = int(msg.payload.decode())
             current_timestamp = int(time.time())
             if abs(current_timestamp - new_timestamp) <= 5:
+                logger.info("Time is in sync")
+                logger.info(f"Activating GPIO pins for {gpio_controller.GPIO_INTERVAL} seconds")
+
                 gpio_controller.activate_pin(0)  # Example: Activate first pin
                 gpio_controller.activate_pin(1)  # Example: Activate first pin
                 gpio_controller.activate_pin(2)  # Example: Activate first pin
