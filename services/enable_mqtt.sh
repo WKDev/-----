@@ -12,11 +12,11 @@ sudo chmod +x $SCRIPT_PATH/main.py
 # systemd 서비스 유닛 파일 작성
 cat <<EOL | sudo tee $SERVICE_FILE
 [Unit]
-Description=MQTT GPIO Controller Service
+Description=SID MQTT GPIO Controller Service
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/sudo -H /usr/bin/python3 /usr/local/bin/$SERVICE_NAME/main.py
+ExecStart=/usr/bin/python3 /usr/local/bin/$SERVICE_NAME/main.py
 WorkingDirectory=/usr/local/bin/$SERVICE_NAME
 StandardOutput=inherit
 StandardError=inherit
