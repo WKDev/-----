@@ -114,7 +114,7 @@ class GPIOController:
             GPIO.setmode(GPIO.BCM)
             GPIO.setwarnings(False)
             for pin in self.pins:
-                GPIO.setup(pin, GPIO.OUT)
+                GPIO.setup(pin, GPIO.OUT, initial=GPIO.HIGH)
 
     def set_release_time(self, release_time):
         self.GPIO_INTERVAL = release_time
@@ -125,9 +125,9 @@ class GPIOController:
             threading.Thread(target=self._activate_pin_thread, args=(pin,)).start()
 
     def _activate_pin_thread(self, pin):
-        GPIO.output(pin, GPIO.HIGH)
-        time.sleep(self.GPIO_INTERVAL)
         GPIO.output(pin, GPIO.LOW)
+        time.sleep(self.GPIO_INTERVAL)
+        GPIO.output(pin, GPIO.HIGH)
 
 gpio_controller = GPIOController(gpio_pins, config['gpio']['release_time'])
 

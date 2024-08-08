@@ -21,9 +21,6 @@ def publish_message():
     # 콜백 함수 설정
     client.on_connect = on_connect
 
-
-    try:
-
     # 브로커에 연결
     client.connect(BROKER, PORT, 60)
     
@@ -31,8 +28,8 @@ def publish_message():
     client.loop_start()
     
     # 메시지 발행
-    client.publish('tr2/time', int(time.time()))
-    client.publish('tr2/release_time', '3')
+    client.publish('dss2/time', int(time.time()))
+    client.publish('dss2/release_time', '3')
 
 
     
