@@ -6,7 +6,7 @@ SERVICE_FILE=/etc/systemd/system/${SERVICE_NAME}.service
 
 # Python 스크립트를 /usr/local/bin에 복사
 sudo mkdir -p $SCRIPT_PATH
-sudo cp -r . $SCRIPT_PATH
+sudo cp -r . $SCRIPT_PATH/../
 sudo chmod +x $SCRIPT_PATH/main.py
 
 # systemd 서비스 유닛 파일 작성
