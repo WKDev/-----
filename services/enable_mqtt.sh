@@ -1,20 +1,37 @@
 #!/bin/bash
 
 SERVICE_NAME=mqtt_gpio_controller
+SCRIPT_PATH=/usr/local/bin/mqtt_gpio_controller
 SERVICE_FILE=/etc/systemd/system/${SERVICE_NAME}.service
-SCRIPT_PATH=/usr/local/bin/mqtt_gpio_controller.py
 
-# 서비스 중지 및 비활성화
-sudo systemctl stop $SERVICE_NAME.service
-sudo systemctl disable $SERVICE_NAME.service
+# Python 스크립트를 /usr/local/bin에 복사
+sudo mkdir -p $SCRIPT_PATH
+sudo cp -r . $SCRIPT_PATH
+sudo chmod +x $SCRIPT_PATH/main.py
 
-# systemd 유닛 파일 삭제
-sudo rm $SERVICE_FILE
+# systemd 서비스 유닛 파일 작성
+cat <<EOL | sudo tee $SERVICE_FILE
+[Unit]
+Description=MQTT GPIO Controller Service
+After=network.target
 
-# Python 스크립트 삭제
-sudo rm $SCRIPT_PATH
+[Service]
+ExecStart=/usr/bin/sudo -H /usr/bin/python3 /usr/local/bin/$SERVICE_NAME/main.py
+WorkingDirectory=/usr/local/bin/$SERVICE_NAME
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=root
+Environment=PYTHONUNBUFFERED=1
+Environment=HOME=/usr/local/bin/$SERVICE_NAME
 
-# 유닛 파일 리로드
+[Install]
+WantedBy=multi-user.target
+EOL
+
+# 유닛 파일 리로드 및 서비스 시작
 sudo systemctl daemon-reload
+sudo systemctl start $SERVICE_NAME.service
+sudo systemctl enable $SERVICE_NAME.service
 
-echo "Service $SERVICE_NAME uninstalled."
+echo "Service $SERVICE_NAME installed and started."

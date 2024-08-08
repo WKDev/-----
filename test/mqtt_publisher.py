@@ -1,7 +1,7 @@
 import paho.mqtt.client as mqtt
 import time
 # MQTT 브로커 정보 설정
-BROKER = '127.0.0.1'
+BROKER = '192.168.11.38'
 PORT = 1883
 TOPIC = 'MBP/time'
 MESSAGE = 'Hello, MQTT!'
@@ -28,8 +28,9 @@ def publish_message():
     client.loop_start()
     
     # 메시지 발행
-    client.publish('MBP/time', int(time.time()))
-    client.publish('MBP/release_time', '1234')
+    client.publish('dss2/time', int(time.time()))
+    client.publish('dss2/release_time', '3')
+
 
     
     # 클라이언트 중지

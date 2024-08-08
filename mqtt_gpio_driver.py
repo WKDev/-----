@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 def get_device_type():
     uname = str(os.uname())
-    if "v8+" in uname:
+    if "rpi" in uname:
         return 'rpi'
     elif "tegra" in uname:
         return "jetson"
@@ -25,15 +25,15 @@ def get_device_type():
 default_config = {
     'mqtt': {
         'broker': {
-            'ip': '192.168.11.28',
+            'ip': '192.168.11.38',
             'port': 1883
         },
-        'device_type': 'ios',
+        'device_type': 'dss',
         'mode': 1,
     },
     'gpio': {
         'release_time': 3,
-        'rpi_pins': [3, 5, 7],
+        'rpi_pins': [16,20,21],
         'jetson_pins': [12, 13, 18],
         'default_pins': [1, 2, 3]
     },
@@ -48,15 +48,7 @@ def create_default_config(config_path):
         yaml.safe_dump(default_config, file)
     print(f"Default configuration file created at {config_path}")
 
-# 설정 파일 로드
-config_path = os.path.expanduser('~/configuration.yml')
-if not os.path.exists(config_path):
-    create_default_config(config_path)
 
-with open(config_path, 'r') as file:
-    config = yaml.safe_load(file)
-
-hostname = socket.gethostname()
 
 # 설정 파일 로드
 config_path = os.path.expanduser('~/configuration.yml')
@@ -68,7 +60,9 @@ with open(config_path, 'r') as file:
 
 hostname = socket.gethostname()
 hostname = hostname.replace('.local', '')
-print(f"Hostname: {hostname}")
+
+print(f"Hostname: {hostname}, loaing Config from {config_path}")
+
 
 # Logging 설정
 log_level = getattr(logging, config['logging']['level'].upper(), logging.INFO)
@@ -80,7 +74,7 @@ try:
         os.makedirs(os.path.dirname(log_file))
     handler = RotatingFileHandler(log_file, maxBytes=10*1024*1024, backupCount=5)
 except (PermissionError, FileNotFoundError):
-    log_file = os.path.expanduser('~/my_mqtt_app.log')
+    log_file = os.path.expanduser('~/mqtt_controller.log')
     handler = RotatingFileHandler(log_file, maxBytes=10*1024*1024, backupCount=5)
 
 logging.basicConfig(level=log_level, 
